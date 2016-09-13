@@ -1,13 +1,14 @@
 # 1-800-CODING-CHALLENGE
 Phonewords are mnemonic phrases represented as alphanumeric equivalents of a telephone number.
 This application maps a list of phone numbers to a list of words that can be made out of the digit of phone numbers based on following mapping:
-DIGIT CHARACTERS
-6     M N O
-7     P Q R S
-8     T U V
-9     W X Y Z
+DIGIT | CHARACTERS            
+------------------                                                                                                                                                                    
+6     | M N O                                                                                                                                                                                
+7     | P Q R S                                                                                                                                                                                
+8     | T U V                                                                                                                                                                                
+9     | W X Y Z                                                                                                                                                                                
 
-###Sample program output:
+##Sample program output:
 Phone Number  | Phone Words 
 ---------------------------
 2255            | [CALL, CALK, BALK, BALL]                                                                                                                                                                                
@@ -25,7 +26,7 @@ Use of TreeSet for storing the in-memory dictionary. It will enable efficient da
 
 Classes designed with Single responsibility principle.
 
-Algorithm:
+##lgorithm:
 1. Read phone numbers from input file
 2. Escape phone numbers for special characters while storing in-memory.
 3. Read and store dictionary data in-memory in a TreeSet.
@@ -37,8 +38,10 @@ Algorithm:
 8. Write formatted output to the give output file.
 
 ##To-do:
-Following items I wish and intended to include, but not able to give proper time because of a packed schedule.
-Implement multi-part input number logic, like 2255.63 should translate to CALL-ME.
+*Following items I wish and intended to include, but not able to give proper time because of a packed schedule.*
+
+- [x] Implement multi-part input number logic, like 2255.63 should translate to CALL-ME.
+- [x] Acceptance test cases.
 
 # Build and Package
 To build the project, run the following command from project home directory
