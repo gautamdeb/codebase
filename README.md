@@ -25,7 +25,7 @@ Use of TreeSet for storing the in-memory dictionary. It will enable efficient da
 
 Classes designed with Single responsibility principle.
 
-##lgorithm:
+##Algorithm:
 1. Read phone numbers from input file
 2. Escape phone numbers for special characters while storing in-memory.
 3. Read and store dictionary data in-memory in a TreeSet.
@@ -39,8 +39,8 @@ Classes designed with Single responsibility principle.
 ##To-do:
 *Following items I wish and intended to include, but not able to give proper time because of a packed schedule.*
 
-- [x] Implement multi-part input number logic, like 2255.63 should translate to CALL-ME.
-- [x] Acceptance test cases.
+- Implement multi-part input number logic, like 2255.63 should translate to CALL-ME.
+- Acceptance test cases.
 
 # Build and Package
 To build the project, run the following command from project home directory
