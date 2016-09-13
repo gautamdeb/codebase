@@ -16,7 +16,6 @@ Phone Number  | Phone Words
 43556           | [HELLO]                                                                                                                                                                                                 
 96753           | [WORLD]                                                                                                                                                                                                       
 
-
 # Explanation of choice of problem and design
 This provides an opportunity for good object oriented design and class organization along with encapsulating a good Algorithm implementation.
 
